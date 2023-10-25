@@ -68,11 +68,11 @@ export const info = {
 // Just change the links so that they lead to your social profiles.
 
     ],
-    bio: "Hello! I'm Christian. I'm a FullStack Developer out of Miami FL I enjoy the outdoors, gym, and playing sports. When you want to succeed as bad as you want to breathe, then you'll be successful. -Eric Thomas ",
+    bio: "Hello, I'm Christian Flores, a Full Stack Developer currently exploring the United States with my wife and our 1 year old son. I have had the honor of serving in the U.S. Air Force for 6 years, and I've also worked as an IT Support Specialist for the United States District Courts. Being a developer is not just rewarding in terms of creating innovative solutions, but it's also amazing how our code can impact the world, one line at a time.",
     skills:
         {
-            proficientWith: ['Javascript', 'React', 'Git', 'Github', 'Bootstrap', 'HTML5', 'CSS3', 'NODEJS'],
-            exposedTo: ['Python', 'Word press', 'MongoDB','NextJs']
+            proficientWith: ['Javascript', 'React', 'Git', 'Github', 'Bootstrap', 'HTML5', 'CSS3', 'NODEJS', 'JQUERY','MongoDB','Express'],
+            exposedTo: ['Python', 'Word Press','NextJs']
         }
     ,
     hobbies: [
@@ -102,8 +102,8 @@ export const info = {
     portfolio: [ // This is where your portfolio projects will be detailed
         {
             title: "My Portfolio",
-            live: "", //this should be a link to the live version of your project, think github pages, netlify, heroku, etc. Or your own domain, if you have it.
-            source: "", // this should be a link to the **repository** of the project, where the code is hosted.
+            live: "https://christianflores.netlify.app/", //this should be a link to the live version of your project, think github pages, netlify, heroku, etc. Or your own domain, if you have it.
+            source: "https://github.com/AmbitiousFlo/My-Portfolio", // this should be a link to the **repository** of the project, where the code is hosted.
             image: mock1
         },
         {
@@ -119,9 +119,9 @@ export const info = {
             image: mock3
         },
         {
-            title: "Project 4",
-            live: "",
-            source: "",
+            title: "Sports Trivia",
+            live: "https://ambitiousflo.github.io/Sports-Trivia/",
+            source: "https://github.com/AmbitiousFlo/Sports-Trivia",
             image: mock4
         },
         {
