@@ -18,14 +18,17 @@ export default function BaseLayout() {
    }
 
    useEffect(() => {
-      let detectedDarkMode = eval(localStorage.getItem('darkMode'));
-
-      if (detectedDarkMode) {
-         setDarkMode(detectedDarkMode)
+      // Get the value from localStorage and parse it as a boolean
+      const detectedDarkMode = localStorage.getItem('darkMode');
+      if (detectedDarkMode === 'true') {
+         setDarkMode(true);
       } else {
-         localStorage.setItem('darkMode', 'false')
+         setDarkMode(false);
+         // If the value in localStorage is not 'true', you can set it to 'false'
+         localStorage.setItem('darkMode', 'false');
       }
-   }, [])
+   }, []);
+   
 
    return (
       <Box className={darkMode ? Style.dark : Style.light}>
